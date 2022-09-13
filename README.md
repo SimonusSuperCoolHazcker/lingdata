@@ -1,2 +1,2 @@
 # lingdata
-Repositorium für sprachwissenschaftlichen Projekte (1 курс)
+Repositorium für die sprachwissenschaftlichen Projekte (1 курс)
