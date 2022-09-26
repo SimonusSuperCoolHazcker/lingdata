@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-27T02:02:52+03:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///D:/ELAN_6.4/Videos/videoplayback (1) (online-video-cutter.com).mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./videoplayback (1) (online-video-cutter.com).mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:ec6585c3-0014-41cb-8aed-05b5637f9b05</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">2</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="59000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="61000"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="@tkf1983m">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Итак, у меня есть немножко заготовленных программок, вот, и первая программка, традиционно, начиная с книжки Брайана Кернигана и Денниса Ричи, это "Hello World!", только на C++. Ну и соответственно мы сейчас его посмотрим. Значит, сейчас посмотрим, насколько это ярко видно. (В зал) Видно или нет? Я ещё немножко добавлю размера. Аааа. Итак! Что мы видим? Если в Питоне для того, чтобы напечатать "Hello World!" , было достаточно одной строки "Принт "Hello World!" " (print("Hello World!")), то здесь--куча всяких приседаний. Решётка, инклюд иострим (#include &lt;iosteram&gt;) . Если очень коротко сказать, то это подключение библиотеки инпут-оутпут стрим--обработка ввода-вывода через потоки. Инт мэйн ( int main)--я делал функцию Мэйн в Питоне и мне это было было удобно часто и потом я её вызывал. В C++ сделать функцию Мэйн необходимо обязательно. Её нельзя не сделать, а вызывать её не надо! Именно функция Мэйн является точкой входа в программу. То есть функций вообще-то может быть много. Да, то есть, вот здесь у меня одна, но глобально, вот да, у меня</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Translation">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>So, I have some programs prepared for today's lecture and the one of them, since the publishing of K&amp;R, is "Hello World!", but only on C++. And now we'll examine it. Let's see how bright it is. (Into the room) Do you see it? I'll scale it a little bit. Ahhh! What do we see? When in Python in order to print "Hello World!" we write just one line of code, here we have lots of fun. #include &lt;iostream&gt; (hash include iostream) . Generally speaking, the import of input-output stream library is the processing of inputs and outputs via streams. I did "int main" function in Python because it was convenient for me and I often summoned it. Here in C++ it is necessary to create the Main function but you have an opportunity NOT to summon it. Main function is the exact entry to the program. Actually, there can be a lot of functions. Yes, here I have just one but, generally speaking,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
